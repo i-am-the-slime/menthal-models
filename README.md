@@ -1,9 +1,20 @@
 menthal-models
 ==============
 
-This project contains the avro models for the menthal Spark cluster.
+This project contains the avro models for Menthal's Spark Cluster.
 
-You'll need sbt to create them.
+Usage with SBT (Scala)
+=============
+
+1.If you do not have it already, add Bintray as a resolver to
+`build.sbt`:
+```
+  resolvers += "jcenter" at "http://jcenter.bintray.com"
+```
+2. Add the dependency by adding the following to your `build.sbt`:
+```
+  libraryDependencies += "org.menthal" % "menthal-models" % "0.2"
+```
 
 Running `sbt compile` will generate the classes.
 
