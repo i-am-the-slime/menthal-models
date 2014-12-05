@@ -1,16 +1,17 @@
 *.class
 *.log
+*.cache
 
 # sbt specific
-scala/.cache/
-scala/.history/
-scala/.lib/
-scala/dist/*
-scala/target/
-scala/lib_managed/
-scala/src_managed/
-scala/project/boot/
-scala/project/plugins/project/
+scala/menthal-models/.cache/
+scala/menthal-models/.history/
+scala/menthal-models/.lib/
+scala/menthal-models/dist/*
+scala/menthal-models/target/
+scala/menthal-models/lib_managed/
+scala/menthal-models/src_managed/
+scala/menthal-models/project/boot/
+scala/menthal-models/project/plugins/project/
 
 # IntelliJ
-scala/.idea/
+scala/menthal-models/.idea/
