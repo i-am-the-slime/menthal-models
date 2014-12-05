@@ -4,8 +4,8 @@
 		module="menthal-models-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20141205154901"
-		e:sbtVersion="0.13" e:scalaVersion="2.10"
+		publication="20141205170220"
+		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>
 		menthal-models-build
@@ -36,9 +36,9 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.4" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="scala-tool->default,optional(default);provided->default(compile)"/>
 		<dependency org="org.scala-sbt" name="sbt" rev="0.13.5" conf="provided->default(compile)"/>
-		<dependency org="com.cavorite" name="sbt-avro" rev="0.3.2" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
-		<dependency org="org.xerial.sbt" name="sbt-sonatype" rev="0.2.1" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
-		<dependency org="com.typesafe.sbt" name="sbt-pgp" rev="0.8.3" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
-		<dependency org="me.lessis" name="bintray-sbt" rev="0.1.2" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
+		<dependency org="com.cavorite" name="sbt-avro" rev="0.3.2" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
+		<dependency org="org.xerial.sbt" name="sbt-sonatype" rev="0.2.1" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
+		<dependency org="com.typesafe.sbt" name="sbt-pgp" rev="0.8.3" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
+		<dependency org="me.lessis" name="bintray-sbt" rev="0.1.2" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
 	</dependencies>
 </ivy-module>

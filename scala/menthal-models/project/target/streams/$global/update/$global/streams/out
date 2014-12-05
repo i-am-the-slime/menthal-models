@@ -1,11 +1,11 @@
-[info] Updating {file:/Users/mark/Documents/Programmieren/menthal-models/scala/menthal-model/project/}menthal-model-build...
-[debug] :: resolving dependencies :: default#menthal-model-build;0.1-SNAPSHOT
+[info] Updating {file:/Users/mark/Documents/Programmieren/menthal-models/scala/menthal-models/project/}menthal-models-build...
+[debug] :: resolving dependencies :: default#menthal-models-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->com.cavorite#sbt-avro;0.3.2 [compile->default(compile)]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->com.cavorite#sbt-avro;0.3.2 [compile->default(compile)]
 [info] Resolving com.cavorite#sbt-avro;0.3.2 ...
 [debug] sbt-chain: Checking cache for: dependency: com.cavorite#sbt-avro;0.3.2 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.cavorite#sbt-avro;0.3.2
@@ -164,14 +164,14 @@
 [debug] == resolving dependencies org.apache.avro#avro-compiler;1.7.5->org.slf4j#slf4j-api;1.6.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.avro#avro-compiler;1.7.5->org.slf4j#slf4j-api;1.6.4 [runtime->compile]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro-compiler;1.7.5 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->default(compile)]
 [info] Resolving org.xerial.sbt#sbt-sonatype;0.2.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.xerial.sbt#sbt-sonatype;0.2.1 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.xerial.sbt#sbt-sonatype;0.2.1
 [debug] 	typesafe-ivy-releases: revision in cache: org.xerial.sbt#sbt-sonatype;0.2.1
 [debug] 	found org.xerial.sbt#sbt-sonatype;0.2.1 in sbt-chain
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->runtime]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->compile]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->runtime]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->compile]
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->master(*)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.2.6 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpclient;4.2.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -216,8 +216,8 @@
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.9 {test=[runtime(*), master(*)]}
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [runtime->compile]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pgp;0.8.3 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pgp;0.8.3 [compile->default(compile)]
 [info] Resolving com.typesafe.sbt#sbt-pgp;0.8.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-pgp;0.8.3 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.sbt#sbt-pgp;0.8.3
@@ -353,7 +353,7 @@
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.1.2 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.1.2 [compile->default(compile)]
 [info] Resolving me.lessis#bintray-sbt;0.1.2 ...
 [debug] sbt-chain: Checking cache for: dependency: me.lessis#bintray-sbt;0.1.2 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: me.lessis#bintray-sbt;0.1.2
@@ -562,9 +562,9 @@
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->org.slf4j#slf4j-nop;1.7.7 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->com.cavorite#sbt-avro;0.3.2 [compile->default(compile)]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->com.cavorite#sbt-avro;0.3.2 [compile->default(compile)]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro;1.7.5 [compile->default(compile)]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro;1.7.5 [compile->runtime]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro;1.7.5 [compile->compile]
@@ -640,9 +640,9 @@
 [debug] == resolving dependencies org.apache.avro#avro-compiler;1.7.5->org.slf4j#slf4j-api;1.6.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.avro#avro-compiler;1.7.5->org.slf4j#slf4j-api;1.6.4 [runtime->compile]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro-compiler;1.7.5 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->default(compile)]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->runtime]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->compile]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->runtime]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->compile]
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->master(*)]
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->org.apache.httpcomponents#httpcore;4.2.5 [compile->master(*)]
@@ -665,8 +665,8 @@
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->compile]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.9 {test=[runtime(*), master(*)]}
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pgp;0.8.3 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pgp;0.8.3 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->com.jsuereth#gpg-library_2.10;0.8.3 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->com.jsuereth#gpg-library_2.10;0.8.3 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->com.jsuereth#gpg-library_2.10;0.8.3 [compile->compile]
@@ -745,7 +745,7 @@
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.1.2 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.1.2 [compile->default(compile)]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->me.lessis#bintry_2.10;0.3.0 [compile->default(compile)]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->me.lessis#bintry_2.10;0.3.0 [compile->runtime]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->me.lessis#bintry_2.10;0.3.0 [compile->compile]
@@ -858,10 +858,10 @@
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->org.slf4j#slf4j-nop;1.7.7 [compile->master]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->com.cavorite#sbt-avro;0.3.2 [compile->default(compile)]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->com.cavorite#sbt-avro;0.3.2 [compile->default(compile)]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro;1.7.5 [compile->default(compile)]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro;1.7.5 [compile->runtime]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro;1.7.5 [compile->compile]
@@ -937,9 +937,9 @@
 [debug] == resolving dependencies org.apache.avro#avro-compiler;1.7.5->org.slf4j#slf4j-api;1.6.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.avro#avro-compiler;1.7.5->org.slf4j#slf4j-api;1.6.4 [runtime->compile]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro-compiler;1.7.5 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->default(compile)]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->runtime]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->compile]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->runtime]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->compile]
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->master(*)]
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->org.apache.httpcomponents#httpcore;4.2.5 [compile->master(*)]
@@ -962,8 +962,8 @@
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->compile]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.9 {test=[runtime(*), master(*)]}
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pgp;0.8.3 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pgp;0.8.3 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->com.jsuereth#gpg-library_2.10;0.8.3 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->com.jsuereth#gpg-library_2.10;0.8.3 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->com.jsuereth#gpg-library_2.10;0.8.3 [compile->compile]
@@ -1042,7 +1042,7 @@
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.1.2 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.1.2 [compile->default(compile)]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->me.lessis#bintry_2.10;0.3.0 [compile->default(compile)]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->me.lessis#bintry_2.10;0.3.0 [compile->runtime]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->me.lessis#bintry_2.10;0.3.0 [compile->compile]
@@ -1155,12 +1155,12 @@
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->org.slf4j#slf4j-nop;1.7.7 [compile->master]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.5 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.5
@@ -1704,11 +1704,11 @@
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-sbt#interface;0.13.5 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->com.cavorite#sbt-avro;0.3.2 [compile->default(compile)]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->com.cavorite#sbt-avro;0.3.2 [compile->default(compile)]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro;1.7.5 [compile->default(compile)]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro;1.7.5 [compile->runtime]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro;1.7.5 [compile->compile]
@@ -1784,9 +1784,9 @@
 [debug] == resolving dependencies org.apache.avro#avro-compiler;1.7.5->org.slf4j#slf4j-api;1.6.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.avro#avro-compiler;1.7.5->org.slf4j#slf4j-api;1.6.4 [runtime->compile]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro-compiler;1.7.5 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->default(compile)]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->runtime]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->compile]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->runtime]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->compile]
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->master(*)]
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->org.apache.httpcomponents#httpcore;4.2.5 [compile->master(*)]
@@ -1809,8 +1809,8 @@
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->compile]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.9 {test=[runtime(*), master(*)]}
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pgp;0.8.3 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pgp;0.8.3 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->com.jsuereth#gpg-library_2.10;0.8.3 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->com.jsuereth#gpg-library_2.10;0.8.3 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->com.jsuereth#gpg-library_2.10;0.8.3 [compile->compile]
@@ -1893,7 +1893,7 @@
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.1.2 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.1.2 [compile->default(compile)]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->me.lessis#bintry_2.10;0.3.0 [compile->default(compile)]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->me.lessis#bintry_2.10;0.3.0 [compile->runtime]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->me.lessis#bintry_2.10;0.3.0 [compile->compile]
@@ -2005,13 +2005,13 @@
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->org.slf4j#slf4j-nop;1.7.7 [compile->master]
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -2336,10 +2336,10 @@
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-sbt#interface;0.13.5 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->com.cavorite#sbt-avro;0.3.2 [compile->default(compile)]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->com.cavorite#sbt-avro;0.3.2 [compile->default(compile)]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro;1.7.5 [compile->default(compile)]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro;1.7.5 [compile->runtime]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro;1.7.5 [compile->compile]
@@ -2415,9 +2415,9 @@
 [debug] == resolving dependencies org.apache.avro#avro-compiler;1.7.5->org.slf4j#slf4j-api;1.6.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.avro#avro-compiler;1.7.5->org.slf4j#slf4j-api;1.6.4 [runtime->compile]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro-compiler;1.7.5 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->default(compile)]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->runtime]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->compile]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->runtime]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->compile]
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->master(*)]
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->org.apache.httpcomponents#httpcore;4.2.5 [compile->master(*)]
@@ -2440,8 +2440,8 @@
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->compile]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.9 {test=[runtime(*), master(*)]}
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pgp;0.8.3 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pgp;0.8.3 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->com.jsuereth#gpg-library_2.10;0.8.3 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->com.jsuereth#gpg-library_2.10;0.8.3 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->com.jsuereth#gpg-library_2.10;0.8.3 [compile->compile]
@@ -2520,7 +2520,7 @@
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.1.2 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.1.2 [compile->default(compile)]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->me.lessis#bintry_2.10;0.3.0 [compile->default(compile)]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->me.lessis#bintry_2.10;0.3.0 [compile->runtime]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->me.lessis#bintry_2.10;0.3.0 [compile->compile]
@@ -2632,13 +2632,13 @@
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->org.slf4j#slf4j-nop;1.7.7 [compile->master]
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->com.cavorite#sbt-avro;0.3.2 [compile->default(compile)]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->com.cavorite#sbt-avro;0.3.2 [compile->default(compile)]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro;1.7.5 [compile->default(compile)]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro;1.7.5 [compile->runtime]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro;1.7.5 [compile->compile]
@@ -2714,9 +2714,9 @@
 [debug] == resolving dependencies org.apache.avro#avro-compiler;1.7.5->org.slf4j#slf4j-api;1.6.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.avro#avro-compiler;1.7.5->org.slf4j#slf4j-api;1.6.4 [runtime->compile]
 [debug] == resolving dependencies com.cavorite#sbt-avro;0.3.2->org.apache.avro#avro-compiler;1.7.5 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->default(compile)]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->runtime]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->compile]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->runtime]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->compile]
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->master(*)]
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->org.apache.httpcomponents#httpcore;4.2.5 [compile->master(*)]
@@ -2739,8 +2739,8 @@
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->compile]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.9 {test=[runtime(*), master(*)]}
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pgp;0.8.3 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pgp;0.8.3 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->com.jsuereth#gpg-library_2.10;0.8.3 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->com.jsuereth#gpg-library_2.10;0.8.3 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->com.jsuereth#gpg-library_2.10;0.8.3 [compile->compile]
@@ -2823,7 +2823,7 @@
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-pgp;0.8.3->net.databinder#dispatch-http_2.10;0.8.10 [compile->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.1.2 [compile->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.1.2 [compile->default(compile)]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->me.lessis#bintry_2.10;0.3.0 [compile->default(compile)]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->me.lessis#bintry_2.10;0.3.0 [compile->runtime]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->me.lessis#bintry_2.10;0.3.0 [compile->compile]
@@ -2935,13 +2935,13 @@
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.1.2->org.slf4j#slf4j-nop;1.7.7 [compile->master]
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -3262,18 +3262,18 @@
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-sbt#interface;0.13.5 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#menthal-model-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies for default#menthal-models-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default]
@@ -3291,8 +3291,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}
@@ -3307,11 +3307,11 @@
 [debug] 	typesafe-ivy-releases: revision in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#menthal-model-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#menthal-models-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
 [debug] all callers are evicted for org.scala-lang#scala-reflect;2.10.0: evicting too
 [debug] all callers are evicted for org.scala-lang#scala-reflect;2.10.0: evicting too
 [debug] 	resolved ivy file produced in cache
@@ -3403,19 +3403,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.5!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1917ms :: artifacts dl 53ms
-[debug] 	report for default#menthal-model-build;0.1-SNAPSHOT compile produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-model/project/target/resolution-cache/reports/default-menthal-model-build-compile.xml
-[debug] 	report for default#menthal-model-build;0.1-SNAPSHOT runtime produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-model/project/target/resolution-cache/reports/default-menthal-model-build-runtime.xml
-[debug] 	report for default#menthal-model-build;0.1-SNAPSHOT test produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-model/project/target/resolution-cache/reports/default-menthal-model-build-test.xml
-[debug] 	report for default#menthal-model-build;0.1-SNAPSHOT provided produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-model/project/target/resolution-cache/reports/default-menthal-model-build-provided.xml
-[debug] 	report for default#menthal-model-build;0.1-SNAPSHOT optional produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-model/project/target/resolution-cache/reports/default-menthal-model-build-optional.xml
-[debug] 	report for default#menthal-model-build;0.1-SNAPSHOT compile-internal produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-model/project/target/resolution-cache/reports/default-menthal-model-build-compile-internal.xml
-[debug] 	report for default#menthal-model-build;0.1-SNAPSHOT runtime-internal produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-model/project/target/resolution-cache/reports/default-menthal-model-build-runtime-internal.xml
-[debug] 	report for default#menthal-model-build;0.1-SNAPSHOT test-internal produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-model/project/target/resolution-cache/reports/default-menthal-model-build-test-internal.xml
-[debug] 	report for default#menthal-model-build;0.1-SNAPSHOT plugin produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-model/project/target/resolution-cache/reports/default-menthal-model-build-plugin.xml
-[debug] 	report for default#menthal-model-build;0.1-SNAPSHOT sources produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-model/project/target/resolution-cache/reports/default-menthal-model-build-sources.xml
-[debug] 	report for default#menthal-model-build;0.1-SNAPSHOT docs produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-model/project/target/resolution-cache/reports/default-menthal-model-build-docs.xml
-[debug] 	report for default#menthal-model-build;0.1-SNAPSHOT pom produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-model/project/target/resolution-cache/reports/default-menthal-model-build-pom.xml
-[debug] 	report for default#menthal-model-build;0.1-SNAPSHOT scala-tool produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-model/project/target/resolution-cache/reports/default-menthal-model-build-scala-tool.xml
-[debug] 	resolve done (1917ms resolve - 53ms download)
+[debug] :: resolution report :: resolve 1928ms :: artifacts dl 56ms
+[debug] 	report for default#menthal-models-build;0.1-SNAPSHOT compile produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-models/project/target/resolution-cache/reports/default-menthal-models-build-compile.xml
+[debug] 	report for default#menthal-models-build;0.1-SNAPSHOT runtime produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-models/project/target/resolution-cache/reports/default-menthal-models-build-runtime.xml
+[debug] 	report for default#menthal-models-build;0.1-SNAPSHOT test produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-models/project/target/resolution-cache/reports/default-menthal-models-build-test.xml
+[debug] 	report for default#menthal-models-build;0.1-SNAPSHOT provided produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-models/project/target/resolution-cache/reports/default-menthal-models-build-provided.xml
+[debug] 	report for default#menthal-models-build;0.1-SNAPSHOT optional produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-models/project/target/resolution-cache/reports/default-menthal-models-build-optional.xml
+[debug] 	report for default#menthal-models-build;0.1-SNAPSHOT compile-internal produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-models/project/target/resolution-cache/reports/default-menthal-models-build-compile-internal.xml
+[debug] 	report for default#menthal-models-build;0.1-SNAPSHOT runtime-internal produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-models/project/target/resolution-cache/reports/default-menthal-models-build-runtime-internal.xml
+[debug] 	report for default#menthal-models-build;0.1-SNAPSHOT test-internal produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-models/project/target/resolution-cache/reports/default-menthal-models-build-test-internal.xml
+[debug] 	report for default#menthal-models-build;0.1-SNAPSHOT plugin produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-models/project/target/resolution-cache/reports/default-menthal-models-build-plugin.xml
+[debug] 	report for default#menthal-models-build;0.1-SNAPSHOT sources produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-models/project/target/resolution-cache/reports/default-menthal-models-build-sources.xml
+[debug] 	report for default#menthal-models-build;0.1-SNAPSHOT docs produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-models/project/target/resolution-cache/reports/default-menthal-models-build-docs.xml
+[debug] 	report for default#menthal-models-build;0.1-SNAPSHOT pom produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-models/project/target/resolution-cache/reports/default-menthal-models-build-pom.xml
+[debug] 	report for default#menthal-models-build;0.1-SNAPSHOT scala-tool produced in /Users/mark/Documents/Programmieren/menthal-models/scala/menthal-models/project/target/resolution-cache/reports/default-menthal-models-build-scala-tool.xml
+[debug] 	resolve done (1928ms resolve - 56ms download)
 [info] Done updating.
