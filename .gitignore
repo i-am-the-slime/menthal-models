@@ -11,3 +11,6 @@ scala/lib_managed/
 scala/src_managed/
 scala/project/boot/
 scala/project/plugins/project/
+
+# IntelliJ
+scala/.idea/
