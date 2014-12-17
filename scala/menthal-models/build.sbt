@@ -2,7 +2,7 @@ name := "menthal-models"
 
 organization := "org.menthal"
 
-version := "0.11"
+version := "0.12"
 
 scalaVersion := "2.10.4"
 

@@ -112,7 +112,7 @@ sourceGenerators in Compile += Def.task {
     }.toList
     List("\n","object Implicits{") ::: genImplicitsList ::: List("}\n","\n")
   }
-  val avroPath = "../model/avro"
+  val avroPath = "../../model/avro"
   val groupedClassTriplets = classTripletsFromAvroDir(avroPath)
     .groupBy {case (_,namespace, _) => namespace}
   val paths = groupedClassTriplets.map {
