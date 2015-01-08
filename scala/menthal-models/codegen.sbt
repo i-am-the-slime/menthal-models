@@ -1,3 +1,4 @@
+import scala.collection.parallel.mutable
 import scala.io.Source
 import scala.reflect.io.File
 import scala.util.parsing.json.JSON
@@ -47,12 +48,15 @@ sourceGenerators in Compile += Def.task {
       case _ => None
     }
   }
+  var schemas:Map[(String, String), String] = Map()
   def processFile (file:File): Option[ClassTriplet] = {
     val schema = Source.fromFile(file.path).getLines().reduce(_ + _)
     val json = JSON.parseFull(schema)
     json.flatMap{
       case m:Map[String, Any] =>
-        processJson(m)
+        val json = processJson(m)
+        for ((name, namespace, _) ← json) schemas = schemas + (((name, namespace), schema))
+        json
       case _ =>
         None
     }
@@ -66,7 +70,8 @@ sourceGenerators in Compile += Def.task {
   def generateImports(ns: String): List[String] = {
     List(
       s"package $ns",
-      "import org.apache.avro.specific.SpecificRecord",
+      "import org.apache.avro.Schema",
+      "import org.apache.avro.specific.{SpecificRecordBase, SpecificRecord}",
       "import scala.collection.JavaConverters._",
       "import java.util",
       "import java.lang",
@@ -77,16 +82,46 @@ sourceGenerators in Compile += Def.task {
   }
   def generateMainTrait(ns: String): List[String] ={
     List(
-      "trait MenthalEvent { ",
+      "trait MenthalEvent extends SpecificRecordBase with SpecificRecord { ",
       "  def userId:Long",
       "  def time:Long",
       "  def toAvro:SpecificRecord",
       "}\n")
   }
   def generateClasses(classes:Seq[ClassTriplet]):List[String] = {
-    classes.flatMap {case (name, _, fieldsList) =>
-      val fields = fieldsList.map {case (nm:String,tp:String) => nm+":"+tp}.mkString(", ")
-      List(s"case class CC$name($fields) extends MenthalEvent", s"{ def toAvro:$name = this }\n")
+    classes.flatMap {case (name, namespace, fieldsList) =>
+      val fields = fieldsList.map {case (nm:String,tp:String) => s"var $nm:$tp"}.mkString(", ")
+      val indexedFields = fieldsList.zipWithIndex
+      val threeQuotes = "\"\"\""
+      val schema = schemas((name, namespace))
+      val nulls = fieldsList.map{
+        case (_, tp:String) ⇒
+          tp match {
+            case "Int" ⇒ "0"
+            case "Float" ⇒ "0f"
+            case "Double" ⇒ "0.0"
+            case "Long" ⇒ "0L"
+            case "Boolean" ⇒ "false"
+            case _ ⇒ "null"
+          }
+      }.mkString(", ")
+      List(s"case class CC$name($fields) extends MenthalEvent {",
+        s"  def this() { this($nulls) }",
+        s"  def toAvro:$name = this",
+        s"  override def getSchema: Schema = Schema.parse($threeQuotes$schema$threeQuotes)",
+         "  override def get(i:Int): AnyRef = (i match {",
+        indexedFields.map{case ((nm:String, tp:String), index:Int) ⇒
+          s"    case $index ⇒ $nm"
+        }.mkString("\n"),
+        "    case _ ⇒ throw new org.apache.avro.AvroRuntimeException(\"Bad index\")",
+         "  }).asInstanceOf[AnyRef]",
+         "  override def put(i:Int, o:scala.Any): Unit = { i match {",
+        indexedFields.map{case ((nm, tp), index) ⇒
+          s"    case $index ⇒ $nm = o.asInstanceOf[$tp]"
+        }.mkString("\n"),
+        "    case _ ⇒ throw new org.apache.avro.AvroRuntimeException(\"Bad index\")",
+        "}}}",
+        "\n")
     }.toList
   }
   def generateImplicits(classes: Seq[ClassTriplet]): List[String] = {
