@@ -2,9 +2,11 @@ name := "menthal-models"
 
 organization := "org.menthal"
 
-version := "0.15"
+version := "0.21"
 
 scalaVersion := "2.10.4"
+
+javaHome := Some(file("/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/"))
 
 licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
 
